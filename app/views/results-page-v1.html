@@ -1,0 +1,208 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<!--
+<div class="govuk-phase-banner">
+<p class="govuk-phase-banner__content">
+<strong class="govuk-tag govuk-phase-banner__content__tag">
+feedback
+</strong>
+<span class="govuk-phase-banner__text">
+This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+</span>
+</p>
+</div>
+-->
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+
+      <span class="govuk-body-l float-title">Check if you need a UK visa</span>
+      <h1 class="govuk-heading-xl">
+        Information based on your answers
+      </h1>
+
+      <h2 class="govuk-heading-l">You need a visa to work in the UK</h2>
+      <p>Based on your answers, you might be eligible for <span class="strong">8 visas</span></p>
+
+
+
+
+      <div class="visa-container">
+          <h2 class="govuk-heading-m">Visa pathway described in words</h2>
+
+          <div class="tag-container">
+        <strong class="govuk-tag">Visa option 1</strong>
+        <strong class="govuk-tag">Visa option 2</strong>
+
+        </div>
+
+        <p>Some words that explain eligibility, maybe a sentence or two, four lines at most</p>
+
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-one-third">
+                <h2 class="govuk-heading-s">Primary attribute 1</h2>
+                <p class="govuk-body">Some text</p>
+              </div>
+
+              <div class="govuk-grid-column-two-thirds">
+                <h2 class="govuk-heading-s">Primary attribute 2</h2>
+                <p class="govuk-body">Some text</p>
+              </div>
+
+              <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                  <span class="govuk-details__summary-text">
+                    Secondary attribute 1
+                  </span>
+                </summary>
+                <div class="govuk-details__text">
+                  Some text explaining
+                </div>
+              </details>
+
+              <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                  <span class="govuk-details__summary-text">
+                    Secondary attribute 2
+                  </span>
+                </summary>
+                <div class="govuk-details__text">
+                  Some text explaining
+                </div>
+              </details>
+
+              <details class="govuk-details" data-module="govuk-details">
+                <summary class="govuk-details__summary">
+                  <span class="govuk-details__summary-text">
+                    Secondary attribute 3
+                  </span>
+                </summary>
+                <div class="govuk-details__text">
+                  Some text explaining
+                </div>
+              </details>
+
+              <p><a href="#">Find out more about applying for this visa for visa option 1</a></p>
+              <p><a href="#">Find out more about applying for this visa for visa option 2</a></p>
+
+              </div>
+              </div>
+
+
+
+
+
+
+
+      <h2 class="govuk-heading-l subsection">Your answers</h2>
+
+      <p class="govuk-body-m"><a href="#">Start again</a>
+
+
+
+        <dl class="govuk-summary-list">
+            <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">Question 1</dt>
+              <dd class="govuk-summary-list__value">Answer 1</dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Which other countries will you be going to? / Spain" href="/covid-travel-abroad/which-country?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden">Question</span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">Question 2</dt>
+              <dd class="govuk-summary-list__value">Answer 2</dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Will you be going to any other countries? / Yes" href="/covid-travel-abroad/any-other-countries-1?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"> Will you be going to any other countries?</span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">Question 3</dt>
+              <dd class="govuk-summary-list__value">Answer 3</dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Which other countries will you be going to? / Portugal" href="/covid-travel-abroad/which-1-country?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"> Which other countries will you be going to?</span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">Question 4</dt>
+              <dd class="govuk-summary-list__value">Answer 4</dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Will you be going to any other countries? / No" href="/covid-travel-abroad/any-other-countries-2?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"> Will you be going to any other countries?</span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">Question 5</dt>
+              <dd class="govuk-summary-list__value">  <ul class="gem-c-list govuk-list">
+        <li>Answer 5</li>
+    </ul>
+    </dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Are you travelling through any of these countries on the way to your destination? / none" href="/covid-travel-abroad/transit-countries?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"> Are you travelling through any of these countries on the way to your destination?</span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">Question 6</dt>
+              <dd class="govuk-summary-list__value">Answer 6</dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Vaccination status / I had my second dose of an approved COVID-19 vaccine 14 or more days ago" href="/covid-travel-abroad/vaccination-status?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"> Vaccination status</span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">Question 7</dt>
+              <dd class="govuk-summary-list__value">  <ul class="gem-c-list govuk-list">
+        <li>Answer 7</li>
+    </ul>
+    </dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Are you travelling with anyone aged 17 or under? / zero_to_four" href="/covid-travel-abroad/travelling-with-children?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"> Are you travelling with anyone aged 17 or under?</span></a>
+
+    </dd>
+    </div>
+    </dl>
+      </div>
+    </div>
+</div>
+    {% endblock %}
