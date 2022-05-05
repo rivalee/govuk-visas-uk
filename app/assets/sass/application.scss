@@ -19,6 +19,18 @@ $govuk-assets-path: '/govuk/assets/';
 
 // Nice subsection titles //
 
+.select-wrapper {
+  padding-bottom: 30px;
+}
+.attributes {
+  border-top: 1px solid $govuk-border-colour;
+  padding-top: 10px;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
 .tag-container {
   padding-top: 5px;
   margin-top: -15px;
@@ -26,12 +38,13 @@ $govuk-assets-path: '/govuk/assets/';
 
 }
 .visa-container {
-  border-top: 5px solid #1d70b8;
+  border-top: 7px solid #1d70b8;
   border-left: 1px solid $govuk-border-colour;
   border-right: 1px solid $govuk-border-colour;
   border-bottom: 1px solid $govuk-border-colour;
   padding: 20px 20px 30px 30px;
   margin-bottom: 70px;
+  width: 80%;
 }
 
 
