@@ -17,14 +17,20 @@ $govuk-assets-path: '/govuk/assets/';
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
-// Nice subsection titles //
+.attribute-q {
+  margin-bottom: 1px;
+}
 
+.govuk-header__content {
+  display: none;
+}
 .select-wrapper {
   padding-bottom: 30px;
 }
 .attributes {
   border-top: 1px solid $govuk-border-colour;
   padding-top: 10px;
+  padding-right: 5px;
 }
 
 .bolder {
