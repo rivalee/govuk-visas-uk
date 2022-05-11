@@ -1,0 +1,380 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<!--
+<div class="govuk-phase-banner">
+<p class="govuk-phase-banner__content">
+<strong class="govuk-tag govuk-phase-banner__content__tag">
+feedback
+</strong>
+<span class="govuk-phase-banner__text">
+This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+</span>
+</p>
+</div>
+-->
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper">
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full-width">
+      <span class="govuk-body-l float-title">Check if you need a UK visa</span>
+      <h1 class="govuk-heading-xl">
+        Information based on your answers
+      </h1>
+
+      <h2 class="govuk-heading-l">You need a visa to work in the UK</h2>
+
+      <p>Based on your answers, you might be eligible for <span class="bolder">1 visa</span></p>
+
+      <!-- Statements attributes - Skilled Job visa -->
+      <div class="visa-container">
+          <h2 class="govuk-heading-m"> <span class="govuk-caption-m">Skilled worker visa
+          </span>If you’re coming to work in an eligible skilled job</h2>
+          <div class="tag-container">  </div>
+
+        <p class="govuk-body-m">
+          Many types of job are eligible, including:</p>
+          <ul class="govuk-list--bullet govuk-body">
+            <li>jobs that require a university degree, such as scientists or doctors</li>
+            <li>many managerial or skilled administrative roles</li>
+            <li>skilled trades, such as carpenters or plumbers</li>
+            </ul>
+
+
+            <h2 class="govuk-heading-s">Key requirements</h2>
+
+            <div class="govuk-grid-row attributes">
+              <div class="govuk-grid-column-one-half">
+                <h2 class="govuk-heading-s attribute-q">You can work without a job offer </h2>
+
+              <p class="govuk-body-s">
+                Your job offer must be from a UK employer that has a licence to hire people from outside the UK
+                </p>
+
+              </div>
+
+              <div class="govuk-grid-column-one-half">
+                <h2 class="govuk-heading-s attribute-q">You need a minimum salary</h2>
+
+
+                  <p class="govuk-body-s">How much you need to earn depends on work you do</p>
+
+
+              </div>
+              </div>
+
+
+              <div class="govuk-grid-row attributes">
+                <div class="govuk-grid-column-one-half">
+                  <h2 class="govuk-heading-s attribute-q">You need knowledge of English</h2>
+
+              <p class="govuk-body-s">
+                   Read, write, speak and understand. If you need to prove this, most people take an English language test
+                  </p>
+
+                </div>
+
+                <div class="govuk-grid-column-one-half">
+                  <h2 class="govuk-heading-s attribute-q">You can stay for 5 years</h2>
+                
+                    <p class="govuk-body-s">
+    Can settle, can extend                        </p>
+
+
+                </div>
+                </div>
+
+                </div>
+
+      <!-- No details attribute - Skilled Job visa -->
+      <div class="visa-container">
+          <h2 class="govuk-heading-m"> <span class="govuk-caption-m">Skilled worker visa
+          </span>If you’re coming to work in an eligible skilled job</h2>
+          <div class="tag-container">  </div>
+
+        <p class="govuk-body-m">
+          Many types of job are eligible, including:</p>
+          <ul class="govuk-list--bullet govuk-body">
+            <li>jobs that require a university degree, such as scientists or doctors</li>
+            <li>many managerial or skilled administrative roles</li>
+            <li>skilled trades, such as carpenters or plumbers</li>
+            </ul>
+
+
+            <h2 class="govuk-heading-s">Key requirements</h2>
+
+            <div class="govuk-grid-row attributes">
+              <div class="govuk-grid-column-one-half">
+                <h2 class="govuk-heading-s attribute-q">Work without job offer </h2>
+                <p class="govuk-body-l">Yes</p>
+
+
+              <p class="govuk-body-s">
+                Your job offer must be from a UK employer that has a licence to hire people from outside the UK
+                </p>
+
+              </div>
+
+              <div class="govuk-grid-column-one-half">
+                <h2 class="govuk-heading-s attribute-q">Minimum salary</h2>
+                <p class="govuk-body-l">
+                  Yes
+                  </p>
+
+                  <p class="govuk-body-s">How much you need to earn depends on work you do</p>
+
+
+              </div>
+              </div>
+
+
+              <div class="govuk-grid-row attributes">
+                <div class="govuk-grid-column-one-half">
+                  <h2 class="govuk-heading-s attribute-q">Knowledge of English</h2>
+                  <p class="govuk-body-l">
+                    Yes
+                  </p>
+
+
+              <p class="govuk-body-s">
+                   Read, write, speak and understand. If you need to prove this, most people take an English language test
+                  </p>
+
+                </div>
+
+                <div class="govuk-grid-column-one-half">
+                  <h2 class="govuk-heading-s attribute-q">Initial visa length</h2>
+                  <p class="govuk-body-l">
+                    5 years
+                    </p>
+
+                    <p class="govuk-body-s">
+Can settle, can extend                        </p>
+
+
+                </div>
+                </div>
+
+                </div>
+
+
+                        <!-- Details attribute - Skilled Job visa -->
+                        <div class="visa-container">
+                            <h2 class="govuk-heading-m"> <span class="govuk-caption-m">Skilled worker visa
+                            </span>If you’re coming to work in an eligible skilled job</h2>
+                            <div class="tag-container">  </div>
+
+                          <p class="govuk-body-m">
+                            Many types of job are eligible, including:</p>
+                            <ul class="govuk-list--bullet govuk-body">
+                              <li>jobs that require a university degree, such as scientists or doctors</li>
+                              <li>many managerial or skilled administrative roles</li>
+                              <li>skilled trades, such as carpenters or plumbers</li>
+                              </ul>
+
+
+
+                              <div class="govuk-grid-row attributes">
+                                <div class="govuk-grid-column-one-half">
+                                  <h2 class="govuk-heading-s attribute-q">Work without job offer? </h2>
+                                  <p class="govuk-body-m">Yes</p>
+
+                                  <details class="govuk-details" data-module="govuk-details">
+                                  <summary class="govuk-details__summary">
+                                    <span class="govuk-details__summary-text">
+                                What does this mean?
+                                    </span>
+                                  </summary>
+                                  <div class="govuk-details__text">
+                                Your job offer must be from a UK employer that has a licence to hire people from outside the UK
+                               </div>
+                                </details>
+                                </div>
+
+                                <div class="govuk-grid-column-one-half">
+                                  <h2 class="govuk-heading-s attribute-q">Minimum salary?</h2>
+                                  <p class="govuk-body-m">
+                                    Yes
+                                    </p>
+
+                                    <details class="govuk-details" data-module="govuk-details">
+                                    <summary class="govuk-details__summary">
+                                      <span class="govuk-details__summary-text">
+                                  What does this mean?
+                                      </span>
+                                    </summary>
+                                    <div class="govuk-details__text">
+                                  How much you need to earn depends on work you do
+                                </div>
+                                  </details>
+
+                                </div>
+                                </div>
+
+
+                                <div class="govuk-grid-row attributes">
+                                  <div class="govuk-grid-column-one-half">
+                                    <h2 class="govuk-heading-s attribute-q">Knowledge of English? </h2>
+                                    <p class="govuk-body-m">
+                                      Yes - read, write, speak and understand
+                                    </p>
+
+                                    <details class="govuk-details" data-module="govuk-details">
+                                    <summary class="govuk-details__summary">
+                                      <span class="govuk-details__summary-text">
+                                  What does this mean?
+                                      </span>
+                                    </summary>
+                                    <div class="govuk-details__text">
+                                  If you need to prove this, most people take an English language test
+                                </div>
+                                  </details>
+                                  </div>
+
+                                  <div class="govuk-grid-column-one-half">
+                                    <h2 class="govuk-heading-s attribute-q">Initial visa length?</h2>
+                                    <p class="govuk-body-m">
+                                      5 years
+                                      </p>
+
+                                      <!--
+                                      <details class="govuk-details" data-module="govuk-details">
+                                      <summary class="govuk-details__summary">
+                                        <span class="govuk-details__summary-text">
+                                    What does this mean?
+                                        </span>
+                                      </summary>
+                                      <div class="govuk-details__text">
+                                    Your job offer must be from a UK employer that has a licence to hire people from outside the UK
+                                    </div>
+                                    </details>
+                                    -->
+
+                                  </div>
+                                  </div>
+                                <div class="govuk-grid-row attributes">
+                                  <div class="govuk-grid-column-one-half">
+                                    <h2 class="govuk-heading-s attribute-q">Can extend? </h2>
+                                    <p class="govuk-body-m">
+                                      Yes
+                                    </p>
+
+                                    <!--
+
+                                    <details class="govuk-details" data-module="govuk-details">
+                                    <summary class="govuk-details__summary">
+                                      <span class="govuk-details__summary-text">
+                                  What does this mean?
+                                      </span>
+                                    </summary>
+                                    <div class="govuk-details__text">
+                                  Text  </div>
+                                  </details>
+                                      -->
+                                  </div>
+
+
+                                  <div class="govuk-grid-column-one-half">
+                                    <h2 class="govuk-heading-s attribute-q">Can settle?</h2>
+                                    <p class="govuk-body-m">
+                                      5 years
+                                      </p>
+
+                                      <details class="govuk-details" data-module="govuk-details">
+                                      <summary class="govuk-details__summary">
+                                        <span class="govuk-details__summary-text">
+                                    What does this mean?
+                                        </span>
+                                      </summary>
+                                      <div class="govuk-details__text">
+                                    Settling means you can live in the UK as long as you like. You can use this status to apply for citizenship
+                                  </div>
+                                    </details>
+
+                                  </div>
+                                  </div>
+
+
+
+
+
+                                <div class="find-out-more">
+                                <p><a href="#">Find out more about applying for this visa</a></p>
+                                </div>
+
+                                </div>
+
+
+
+
+
+      <h2 class="govuk-heading-l subsection">Your answers</h2>
+
+      <p class="govuk-body-m"><a href="#">Start again</a>
+
+
+
+        <dl class="govuk-summary-list">
+            <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">What's your nationality as shown on your passport or travel document?	</dt>
+              <dd class="govuk-summary-list__value">India</dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Which other countries will you be going to? / Spain" href="/covid-travel-abroad/which-country?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden">Question</span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">What are you coming to the UK to do?	</dt>
+              <dd class="govuk-summary-list__value">Work, academic visit or business	</dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Will you be going to any other countries? / Yes" href="/covid-travel-abroad/any-other-countries-1?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"></span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">How long are you planning to work in the UK for?	</dt>
+              <dd class="govuk-summary-list__value">longer than 6 months	</dd>
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Which other countries will you be going to? / Portugal" href="/covid-travel-abroad/which-1-country?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"></span></a>
+
+    </dd>
+    </div>          <div class="govuk-summary-list__row">
+
+              <dt class="govuk-summary-list__key">Are you planning to work in any of these types of job?	</dt>
+              <dd class="govuk-summary-list__value">I want to do another type of job - show me other work visas	</dd>
+
+
+
+
+
+                <dd class="govuk-summary-list__actions">
+                                  <a class="govuk-link" data-module="gem-track-click" data-track-category="Smart Answer Change Link" data-track-action="Link clicked" data-track-label="Are you travelling with anyone aged 17 or under? / zero_to_four" href="/covid-travel-abroad/travelling-with-children?any_other_countries_1=yes&amp;any_other_countries_2=no&amp;transit_countries%5B%5D=none&amp;travelling_with_children%5B%5D=zero_to_four&amp;vaccination_status=vaccinated&amp;which_1_country=portugal&amp;which_country=spain">
+                    Change<span class="govuk-visually-hidden"> Are you travelling with anyone aged 17 or under?</span></a>
+
+    </dd>
+    </div>
+    </dl>
+      </div>
+    </div>
+</div>
+    {% endblock %}
