@@ -31,12 +31,19 @@ padding-top: 20px;
 .select-wrapper {
   padding-bottom: 30px;
 }
+
+
 .attributes {
-  border-top: 1px solid $govuk-border-colour;
-  padding-top: 10px;
+  padding-top: 5px;
   margin-top: 15px;
   padding-right: 5px;
-  margin-right: 10px;
+  margin-right: 5px;
+}
+
+.attribute-chunk {
+  border-top: 1px solid $govuk-border-colour;
+  padding-top: 10px;
+
 }
 
 .bolder {
